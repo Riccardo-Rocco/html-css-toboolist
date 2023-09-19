@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
     
-
+/*testa pagina-banner*/
 
 header{
     margin-left:0px;
@@ -31,7 +31,7 @@ header{
 } 
 
 
-
+/*struttura quadrato e rettangolo sfondo*/
 
 
 main{
@@ -48,7 +48,7 @@ main{
     background-color: rgb(255, 255, 255);
     padding: 10px 0;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom:5px;
 }
 
@@ -58,7 +58,7 @@ main{
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 10px;
     border-radius: 10px;
 
@@ -78,7 +78,7 @@ main{
 
 .quadrato {
     width: 60%; 
-    height: auto;
+    height: 70%;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,8 @@ main{
     
 
 }
+
+/*liste con check e etichetta testo*/
 
 .titolo1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -148,7 +150,7 @@ main{
 .personalized-list {
     list-style-type: none; 
     padding: 0;
-    margin-left: 20px;
+    margin-left: 50px;
 
 }
 .personalized-list li{
@@ -157,22 +159,96 @@ main{
 }
 
 .check1 {
-    color: rgb(10, 174, 144);
-    padding-left: 6px; 
-    position: relative;
-    margin-right: 5px;
+    display: inline-block;
+    width: 17px;       
+    height: 17px;       
+    border: 2px solid rgb(40, 156, 129);   
+    border-radius: 50%;       
+    text-align: center;       
+    line-height: 17px;        
+    font-weight: bold;        
+    color: rgb(40, 156, 129);             
+    background-color: transparent; 
+    margin-right: 7px;
 }
+    
+
 
 
  .cross {
-    color: rgb(221, 78, 21);
-    padding-left: 6px;
-    position: relative;
-    margin-right: 5px;
+    display: inline-block;
+    width: 17px;       
+    height: 17px;       
+    border: 2px solid rgb(227, 73, 55);   
+    border-radius: 50%;       
+    text-align: center;       
+    line-height: 17px;        
+    font-weight: bold;        
+    color: rgb(227, 73, 55);             
+    background-color: transparent;
+    margin-right: 7px;
 }
 
 .etichetta-E{
     background-color: #47A9E8; 
+    border-radius: 10px; 
+    padding: 2px 6px; 
+    margin-left: 2px; 
+    font-size: 0.8em; 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-size: small;
+}
+
+.etichetta-2{
+    background-color: #9C72E3; 
+    border-radius: 10px; 
+    padding: 2px 6px; 
+    margin-left: 2px; 
+    font-size: 0.8em; 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-size: small;
+}
+
+
+.etichetta-3{
+    background-color:#63BEA9; 
+    border-radius: 10px; 
+    padding: 2px 6px; 
+    margin-left: 2px; 
+    font-size: 0.8em; 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-size: small;
+}
+
+
+.etichetta-4{
+    background-color:#F39C34 ; 
+    border-radius: 10px; 
+    padding: 2px 6px; 
+    margin-left: 2px; 
+    font-size: 0.8em; 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-size: small;
+}
+
+.etichetta-5{
+    background-color: #D563A0; 
+    border-radius: 10px; 
+    padding: 2px 6px; 
+    margin-left: 2px; 
+    font-size: 0.8em; 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-size: small;
+}
+
+
+.etichetta-6{
+    background-color: #B1C729; 
     border-radius: 10px; 
     padding: 2px 6px; 
     margin-left: 2px; 
