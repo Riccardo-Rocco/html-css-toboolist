@@ -77,10 +77,107 @@ main{
 
 
 .quadrato {
-    width: 60%; /* Una larghezza di esempio */
+    width: 60%; 
     height: auto;
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+
+}
+
+.titolo1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: none;
+    position: relative; 
+    padding-left: 13px; 
+}
+
+.titolo1::before {
+    content: ""; 
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent;
+    border-top: 4px solid black; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-10%); 
+}
+
+
+.titolo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: none;
+    position: relative; 
+    padding-left: 13px; 
+}
+
+.titolo2::before {
+    content: ""; 
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent;
+    border-top: 4px solid black; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-10%); 
+}
+
+
+.titolo3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: none;
+    position: relative; 
+    padding-left: 13px; 
+}
+
+.titolo3::before {
+    content: ""; 
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent;
+    border-top: 4px solid black; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-10%); 
+}
+
+.personalized-list {
+    list-style-type: none; 
+    padding: 0;
+    margin-left: 20px;
+
+}
+.personalized-list li{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.check1 {
+    color: rgb(10, 174, 144);
+    padding-left: 6px; 
+    position: relative;
+    margin-right: 5px;
+}
+
+
+ .cross {
+    color: rgb(221, 78, 21);
+    padding-left: 6px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.etichetta-E{
+    background-color: #47A9E8; 
+    border-radius: 10px; 
+    padding: 2px 6px; 
+    margin-left: 2px; 
+    font-size: 0.8em; 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-size: small;
 }
